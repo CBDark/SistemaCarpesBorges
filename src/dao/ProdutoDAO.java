@@ -28,9 +28,9 @@ public class ProdutoDAO extends DAO_Abstract{
         Produto produto = (Produto) object;
        try{
             String url, use, password;
-             url = "jdbc:mysql://10.7.0.51:33062/db_maycon_borges";
-            use = "maycon_borges";
-            password = "maycon_borges"; 
+             url = "jdbc:mysql://10.7.0.51:33062/db_daniel_carpes";
+            use = "daniel_carpes";
+            password = "daniel_carpes"; 
             Class.forName("com.mysql.jdbc.Driver");
             Connection cnt;
             cnt = DriverManager.getConnection(url, use, password);
